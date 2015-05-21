@@ -1,2 +1,2 @@
-GNU-SOCIAL development setup on OSX
-===================================
+Up & running test
+=================

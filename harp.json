@@ -7,8 +7,8 @@
 
     "articles": {
         "gnu": {
-          "title": "GNU-Social developer setup",
-          "href": "/blog/gnu-social-setup"
+          "title": "Up and running test",
+          "href": "/blog/gnu-social-setup.html"
         }
     }
   }
