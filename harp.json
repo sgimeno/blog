@@ -3,13 +3,8 @@
     "title": "Sergi's code blog",
     "description": "code notes",
     "keywords": "code, open-source, javascript",
-    "siteURL": "http://blog.io",
 
-    "articles": {
-        "gnu": {
-          "title": "Up and running test",
-          "href": "/blog/gnu-social-setup.html"
-        }
-    }
+    "_github_url" : "http://sgimeno.github.io/blog",
+    "github_url" : "http://localhost:8000/yet-another-blog-5"
   }
 }

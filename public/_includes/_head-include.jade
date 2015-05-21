@@ -1,7 +1,7 @@
 language = current.path[1]
 version = ''
 
-title #{title}
+title #{title} : #{current.path[0]}
 
 meta(charset="utf-8")
 meta(http-equiv="X-UA-Compatible" content="IE=edge")
@@ -11,4 +11,7 @@ meta(name="robots" content="all")
 meta(name="referrer" content="origin")
 meta(name="viewport" id="viewport" content="width=device-width, initial-scale=1")
 
-link(rel="stylesheet" href="/main.css")
+if github_url
+  link(rel="stylesheet" href="#{github_url}/main.css")
+else
+  link(rel="stylesheet" href="/main.css")
