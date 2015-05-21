@@ -1,0 +1,15 @@
+{
+  "globals": {
+    "title": "Sergi's code blog",
+    "description": "code notes",
+    "keywords": "code, open-source, javascript",
+    "siteURL": "http://blog.io",
+
+    "articles": {
+        "gnu": {
+          "title": "GNU-Social developer setup",
+          "href": "/blog/gnu-social-setup"
+        }
+    }
+  }
+}
