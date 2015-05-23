@@ -2,5 +2,5 @@ h1 #{title}.
 
 for article, slug in public.articles._data
   a(class="article-link" href="#{baseUrl}/articles/#{ slug }/")
-    h2= article.title
+    h3 #{article.date} - #{article.title} 
   
