@@ -11,6 +11,7 @@ This repository is ment for playing with [harp](harpjs.com) and gh-pages, use at
 4. Open this url in the browser: [http://localhost:9000/](http://localhost:9000/)
 
 ## Github page setup
+Follow this [instructions](https://help.github.com/articles/creating-project-pages-manually/) to create your gh-pages branch. 
 In `harp.json` configure `baseUrl` as follows: `"baseUrl": "http://<useraccount>.github.com/<reponame>"` and commit it with your changes in your `master/develop` branch, then:
 ```
 $ make blog
