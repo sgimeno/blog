@@ -4,7 +4,6 @@
     "description": "code notes",
     "keywords": "code, open-source, javascript",
 
-    "_github_url" : "http://sgimeno.github.io/blog",
-    "github_url" : "http://localhost:8000/yet-another-blog-5"
+    "baseUrl" : ""
   }
 }

@@ -1,9 +1,6 @@
 h1 #{title}.
 
 for article, slug in public.articles._data
-  if github_url
-    a(class="article-link" href="#{github_url}/articles/#{ slug }/")
-      h2= article.title
-  else
-   a(class="article-link" href="/articles/#{ slug }/")
-     h2= article.title
+  a(class="article-link" href="#{baseUrl}/articles/#{ slug }/")
+    h2= article.title
+  

@@ -11,7 +11,4 @@ meta(name="robots" content="all")
 meta(name="referrer" content="origin")
 meta(name="viewport" id="viewport" content="width=device-width, initial-scale=1")
 
-if github_url
-  link(rel="stylesheet" href="#{github_url}/main.css")
-else
-  link(rel="stylesheet" href="/main.css")
+link(rel="stylesheet" href="#{baseUrl}/main.css")
