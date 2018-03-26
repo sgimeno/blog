@@ -1,0 +1,64 @@
+<!DOCTYPE html><html lang="en"><head><title>Sergi's code blog : articles</title><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="code notes"/><meta name="keywords" content="code, open-source, javascript"/><meta name="robots" content="all"/><meta name="referrer" content="origin"/><meta name="viewport" id="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="http://localhost:9000/main.css"/></head><body><article><h1>NPM 101</h1><h2>Session content</h2><ul>
+<li>What&#39;s NPM?<ul>
+<li>global VS local modules   </li>
+<li>npm install/uninstall</li>
+</ul>
+</li>
+<li>What&#39;s package.json ment for?<ul>
+<li>npm init</li>
+<li>dependencies VS devDependenvices</li>
+<li>npm scripts</li>
+</ul>
+</li>
+<li>Linting your code with eslint</li>
+</ul>
+<h2>Exercises</h2><p>1 . Create a local <code>package.json</code> to store dependencies</p>
+<p>2 . Install eslint program via NPM for linting our source code. How should you save
+this dependency?</p>
+<p>3 . Create a npm script ie: <code>exec</code> that calls <a href="./index.js"><code>index.js</code></a> program</p>
+<pre><code class="language-shell">~/training/npm-101
+$ npm run exec
+
+&gt; npm-101@1.0.0 exec /Users/sergio/training/npm-101
+&gt; node index.js
+
+Baz is a string
+333 is not a string
+</code></pre>
+<p>4 . Create a npm script ie: <code>lint</code> that calls <code>eslint</code> program to lint your code</p>
+<pre><code class="language-shell">~/training/npm-101
+$ npm run lint
+
+&gt; npm-101@1.0.0 lint /Users/sergio/training/npm-101
+&gt; eslint index.js
+
+
+/Users/sergio/training/npm-101/index.js
+  1:1   error    Rule &#39;space-after-keywords&#39; was removed and replaced by: keyword-spacing  space-after-keywords
+  2:18  error    Unexpected space before function parentheses                              space-before-function-paren
+  2:30  error    Missing space before opening brace                                        space-before-blocks
+  3:1   warning  Line 3 exceeds the maximum line length of 110                             max-len
+  3:3   error    Expected space or tab after &#39;//&#39; in comment                               spaced-comment
+  4:27  error    Expected &#39;===&#39; and instead saw &#39;==&#39;                                       eqeqeq
+  4:30  error    Strings must use singlequote                                              quotes
+
+✖ 7 problems (6 errors, 1 warning)
+  5 errors, 0 warnings potentially fixable with the `--fix` option.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! npm-101@1.0.0 lint: `eslint index.js`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the npm-101@1.0.0 lint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/sergio/.npm/_logs/2018-03-26T10_19_52_500Z-debug.log
+</code></pre>
+<h2>Links</h2><ul>
+<li><a href="https://docs.npmjs.com/files/package.json">https://docs.npmjs.com/files/package.json</a></li>
+<li><a href="https://docs.npmjs.com/misc/scripts">https://docs.npmjs.com/misc/scripts</a></li>
+<li><a href="https://eslint.org/">https://eslint.org/</a></li>
+<li><a href="https://standardjs.com/">https://standardjs.com/</a></li>
+</ul></article><!-- VENDORS --></body></html>
