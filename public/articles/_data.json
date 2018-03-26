@@ -1,10 +1,6 @@
 {
-   "hello-world": {
-     "title": "Hello World.",
-     "date": "23/05/2015"
-   },
-   "another-article": {
-     "title": "Another article.",
-     "date": "23/05/2015"
+   "npm-101": {
+     "title": "NPM 101",
+     "date": "26/03/2018"
    }
  }

@@ -1,0 +1,23 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "Markdown powered blog ready to use on github pages",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development harp server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgimeno/blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgimeno/blog/issues"
+  },
+  "homepage": "https://github.com/sgimeno/blog#readme",
+  "devDependencies": {
+    "harp": "^0.25.0"
+  }
+}
